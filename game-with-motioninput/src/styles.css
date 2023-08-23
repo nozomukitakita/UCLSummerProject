@@ -1,0 +1,47 @@
+.wrapper {
+    text-align: center;
+    max-height: 100vh;
+    overflow-y: none;
+    font-family: "Segoe UI"
+}
+.wrapper.light {
+    color: black;
+}
+.wrapper.dark {
+    color: white;
+}
+.wrapper.dark {
+    color: white;
+}
+.wrapper.dark > button {
+    color: white;
+}
+.wrapper.stage {
+    overflow-y: auto;
+}
+.wrapper.error {
+    text-align: center;
+    color: red;
+}
+h2 {
+    margin: 12px;
+    margin-top: 32px;
+    text-align: left;
+}
+h3 {
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+button {
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 4px 16px;
+    border-color: gray;
+}
+button:hover {
+    background-color: gray;
+}

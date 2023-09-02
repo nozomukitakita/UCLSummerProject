@@ -19,7 +19,7 @@ export async function renderMeetingStage(container, elem, theme) {
     const wrapperElem = elem.querySelector(".wrapper");
     await renderScreen(elem, wrapperElem);
 }
-
+/* The Function is adapted from https://docs.unity3d.com/Manual/webgl-templates.html*/
 async function renderScreen(elem, wrapperElem) {
     var canvas = wrapperElem.querySelector("#unity-canvas");
 
